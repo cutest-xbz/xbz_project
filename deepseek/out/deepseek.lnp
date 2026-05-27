@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"..\out\core_cm3.o"
+"..\out\system_stm32f10x.o"
+"..\out\startup_stm32f10x_hd.o"
+"..\out\misc.o"
+"..\out\stm32f10x_flash.o"
+"..\out\stm32f10x_gpio.o"
+"..\out\stm32f10x_rcc.o"
+"..\out\stm32f10x_tim.o"
+"..\out\stm32f10x_dma.o"
+"..\out\stm32f10x_usart.o"
+"..\out\stm32f10x_exti.o"
+"..\out\device_timer.o"
+"..\out\scheduler.o"
+"..\out\time.o"
+"..\out\motor.o"
+"..\out\tracker.o"
+"..\out\pwm.o"
+"..\out\pid.o"
+"..\out\car_drive.o"
+"..\out\main.o"
+--strict --scatter "..\out\deepseek.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\deepseek.map" -o ..\out\deepseek.axf
