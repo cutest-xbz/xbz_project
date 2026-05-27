@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I ..\FWlib\inc -I ..\Sys_Init\inc -I ..\system\inc -I ..\User_Driver\inc -I ..\User_Prog\inc -I ..\User_App\src -I ..\ -I ..\User_Prog\inc
+-I.\RTE\_deepseek
+-ID:\Keil5_c51\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-ID:\Keil5_c51\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o ..\out\core_cm3.o --omf_browse ..\out\core_cm3.crf --depend ..\out\core_cm3.d "..\Sys_Init\src\core_cm3.c"
