@@ -1,6 +1,0 @@
---cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork 
--I.\RTE\_deepseek
--ID:\Keil5_c51\Keil\STM32F1xx_DFP\2.2.0\Device\Include
--ID:\Keil5_c51\ARM\CMSIS\Include
---pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"
---list .\startup_stm32f10x_hd.lst --xref -o ..\out\startup_stm32f10x_hd.o --depend ..\out\startup_stm32f10x_hd.d "..\Sys_Init\src\startup_stm32f10x_hd.s"
